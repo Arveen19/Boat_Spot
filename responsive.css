@@ -1,0 +1,192 @@
+@media (max-width: 1437px) {
+    #showcase {        
+        height: 70vh;
+    }
+    #showcase .showcase-content {
+        height: 70%;
+        top: 128px;
+    }
+    #static-navbar, #navbar {
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 1209px) {
+    #static-navbar {
+        padding: 1rem 0.5rem;
+    }
+    #navbar {
+        padding: 0.5rem 0.25rem;
+    }
+}
+
+@media (max-width: 1161px) {
+    #showcase {        
+        height: 65vh;
+    }
+    #showcase .showcase-content {
+        height: 65%;
+        top: 112px;
+    }
+    #static-navbar h1{
+        font-size: 1.5em;
+    }
+    #static-navbar ul li a {
+        font-size: 12px;
+        padding: 0.2rem;
+    }
+    #features .margin{
+        margin-bottom: 30px;
+    }
+    .search-box2 input[type='submit'] {
+        width: 20%;
+    }
+    #client {
+        padding: 1rem 1.5rem;
+    }
+    #client .clients img {
+        width: 680px;
+    }
+}
+
+@media (max-width: 943px) {
+    #static-navbar .navigation{
+        display: none;
+    }
+    #static-navbar .navigation.active {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    #static-navbar .navigation li {
+        margin-left: 0;
+    }
+    #static-navbar .navigation li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    #static-navbar .navigation li {
+        padding-bottom: 1.4rem;
+    }
+    .toggle {
+        z-index: 3;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(cities/menu.png) no-repeat center ;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active {
+        background: url(cities/close.png) no-repeat center ;
+        background-size: 35px;
+        cursor: pointer;
+    }    
+    #showcase {        
+        height: 50vh;
+    }
+    #showcase .showcase-content {
+        height: 50%;
+        top: 108px;
+    }
+    .search-box  {
+        width: 35rem;
+    }
+    .search-text {
+        width: 91%;
+    }
+    #navbar {
+        padding: 0.4rem;
+    }
+    #static-navbar {
+        padding: 1rem;
+    }
+    #static-navbar ul li a {
+        font-size: 12px;
+    }
+    #showcase .l-heading{
+        font-size: 34px;
+    }
+    #showcase .lead {
+        font-size: 20px;
+    }
+    #static-navbar a {
+        font-size: 14px;
+    }    
+    #client {
+        padding: 2rem 1rem;
+    }
+    #client h2 {
+        font-size: 20px;
+    }
+    #client .clients img {
+        width: 570px;
+    }
+    .footer-container .signup {
+        position: relative;
+        width: 340px;
+        margin: 20px;
+    }
+    #client {
+        display: none;
+    }    
+}
+
+@media (max-width: 769px) {
+    #navbar {
+        padding: 0.2rem 0.2rem;
+    }
+    #navbar ul li a {
+        color: white;
+        padding: 0.2rem;
+        margin: 0.1 0.1rem;
+    }
+    #showcase .showcase-content {
+        height: 50%;
+        top: 100px;
+    }
+    .toggle {
+        width: 35px;
+        height: 35px;
+        background-size: 18px;
+    }
+    .search-box  {
+        width: 16rem;
+    }
+    .search-text {
+        width: 80%;
+    }
+    #cities .items .item {
+        margin: 10px;
+    }
+    #features .info .position {
+        margin-bottom: 3rem;
+    }
+    .counters {
+        color: #fff;
+        padding: 20px 10px;
+    }
+    .counters .container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        text-align: center;
+    }
+    .counters i {
+        margin-top: 20px;
+    }
+    .counters .counter {
+        font-size: 35px;
+        margin: 5px 0;
+    }
+}
+ 
